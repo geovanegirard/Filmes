@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-right: 250px;
+    padding: 8px;
+    font-size: 32px;
+    
+
+}
+.card-filme{
+    
+    display: inline-block;
+    background-color: red;
+    border-radius: 18px;
+    text-align: center;
+    border: 2px solid blue;
+    margin: 10px;
+    
+    
+}
+
+.card-filme > img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.imagem-filme{
+    border-radius: 2rem;
+    margin: 8px;
+    
+}
+
+.card-filme > .filme-info{
+    float: right;
+    margin-top: 100px;
+    padding: 5px;
+    
+}
+.filme-info{
+    float: right;
+    color: white;
+    font-size: 16px;
+    margin: 4px;
+    border: solid 2px black;
+    border-radius: 8px;
+
+}
+
+
+.imagem-filme:hover{
+    width: 210px;
+    height: 210px;
+    border: solid 8px black;
+}
